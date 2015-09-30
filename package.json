@@ -2,11 +2,11 @@
   "name": "CLENS",
   "version": "0.0.1",
   "description": "A minimal one-column, responsive theme for Jekyll",
-  "homepage": "http://vincentchan.github.io/mickey",
+  "homepage": "http://ba5bx.github.io/",
   "author": "Vincent Chan",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vincentchan"
+    "url": "https://github.com/ba5bx"
   },
   "devDependencies": {
     "browser-sync": "~1.7.1",
