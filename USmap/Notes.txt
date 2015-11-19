@@ -1,0 +1,25 @@
+Notes:
+
+Gender:
+	Count, 1 M, 1 F, .5 given to both when not able to be identified.
+		Give the option of showing the actual number rather than percentages.
+
+DT:
+	-Article by him or directly quoting him about why he's so popular.
+		Good reference?
+	-Psychologists: do people tweet about him during debates or speeches.
+	-Expert opinion: what do top political news reporters say about why people are tweeting about him or why
+		he's currently being talked about.**
+	-MY OPINION MATTERS! 
+	-Work on some more categories.
+		Make connections
+		
+
+Map:
+	Give ways to filter through data. Tags, (Map changes accordingly based on user input)
+	Possibly:
+		Show number of tweets.
+		Option to filter x, y variables in the map
+			Have map change according to the independent variable.
+			On scroll show that variable: DO NOT OVERLOAD
+			

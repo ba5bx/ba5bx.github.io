@@ -34,13 +34,19 @@
 				/* min-width: (containers) */
 				min-width: 1200px;
 			}
+			.container.\38 5\25 {
+
+				/* width: (containers * 0.75) */
+				width: 900px;
+
+
+			}
 
 		/* 75% */
 			.container.\37 5\25 {
 
 				/* width: (containers * 0.75) */
-				width: 900px;
-
+				width: 1000px;
 			}
 
 		/* 50% */
