@@ -111,11 +111,43 @@ $(document).ready(function(){
 		$("#"+data[i][0]).css("opacity", data[i][2]/48);
 	}
 
-	$("#load_positive").click(function(){
+	$("#positive_tweets").click(function(){
 		console.log('hi');
 		for (j in positive_data) {
-			$("#"+data[j][0]).css("fill","rgb(25, 215, 75)");
+			$("#"+data[j][0]).css("fill","rgb(215, 25, 25)");
+			$("#"+data[j][0]).css("opacity", data[j][3]/48);
+		}
+	});
+
+	$("#negative_tweets").click(function(){
+		console.log('hi');
+		for (j in positive_data) {
+			$("#"+data[j][0]).css("fill","rgb(215, 25, 25)");
 			$("#"+data[j][0]).css("opacity", data[j][2]/48);
+		}
+	});
+
+	$("#women").click(function(){
+		console.log('hi');
+		for (j in positive_data) {
+			$("#"+data[j][0]).css("fill","rgb(215, 25, 25)");
+			$("#"+data[j][0]).css("opacity", data[j][3]/48);
+		}
+	});
+
+	$("#men").click(function(){
+		console.log('hi');
+		for (j in positive_data) {
+			$("#"+data[j][0]).css("fill","rgb(215, 25, 25)");
+			$("#"+data[j][0]).css("opacity", data[j][2]/48);
+		}
+	});
+
+	$("#18-30").click(function(){
+		console.log('hi');
+		for (j in positive_data) {
+			$("#"+data[j][0]).css("fill","rgb(215, 25, 25)");
+			$("#"+data[j][0]).css("opacity", data[j][3]/48);
 		}
 	});
 });
