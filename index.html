@@ -20,6 +20,17 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/code.js"></script>
 		<script src="js/US-responsive.js"></script>
+		<!-- GET DIFFERENT DATA-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		    $("button").click(function(){
+		        $("#div1").load("demo_test.txt");
+		    });
+		});
+		</script>
+
+
 
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -59,8 +70,93 @@
 				</ul>
 			</section>
 
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2 special">
+
+					<div class="container">
+						<header class="major">
+							<h2>National Data</h2>
+							<p>The map above let's us see what each state is thinking about, but here is a more national look into what the data is telling us. </p>
+						</header>
+						<div class="row 150%">
+							<div class="6u 12u$(xsmall)">
+								<div class="image fit captioned">
+									<img src="images/Gender.png" alt="" />
+									<h3>72% of the people who like Trump are men.</h3>
+									<p> Data shows that men tend to support Donald Trump more than women on a national level. This could be due to many reasons. For one, Donald Trump does not support has been quoted disresoecting women in several occasions. Politica</p>
+								</div>
+							</div>
+							<div class="6u$ 12u$(xsmall)">
+								<div class="image fit captioned">
+									<img src="images/polarity.png" alt="" />
+									<h3>64% of the tweets were negative.</h3>
+								</div>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><a href="trump.html" class="button special big">Read More about Trump</a></li>
+							<!--  OTHER BUTTON: <li><a href="#" class="button big">Continu</a></li> -->
+						</ul>
+					</div>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="wrapper style1">
+					<div class="container">
+						<header class="major special">
+							<h2>Interesting Facts from Our Data</h2>
+							<p>Based on more than 40,000 tweets, here are some of the things we've noticed.</p>
+						</header>
+						<div class="feature-grid">
+							<div class="feature">
+								<div class="image rounded"><img src="images/18-25.png" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Age of people who tweeted about Trump the most.</h4>
+										<p>Nearly 43% of the tweets came from this age group.</p>
+									</header>
+									<p>Some of the tweets were positive, but most of them were negative. Roughly 73% of the tweets from people this age criticized Trump.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/hilary.png" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Hillary vs Trump</h4>
+										<p>Clinton was the democrat most mentioned when people tweeted about Trump.</p>
+									</header>
+									<p>Perhaps it's because people find Hillary fascinating, or becaue Trump has been quoted critizing her, but people mentioned her the most in the tweets we collected.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/bush.png" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Jeb Bush Better than Trump?</h4>
+										<p>Bush was the Republican most talked about and compared to Trump.</p>
+									</header>
+									<p>When people tweeted about Trump, they often talked about how he was not as good of a Republican as Bush. Nearly 40% of the tweets that mentioned Bush referenced Bush superiority, and the rest compared their views on topics like taxes and immigration.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/52.png" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Immigration and Women's Rights</h4>
+										<p>Tweets that contained political topics were mostly about these two.</p>
+									</header>
+									<p>Donald Trump gets the most amount of press time and is often featured in several news medias for his radical views on several political topics. Of all the tweets that contained a political topic, most contained the words immigration and women's rights (or things pertaining to them).  </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
 			<!-- One -->
 				<section id="one" class="wrapper style1">
+
 					<!--MAP-->
 					<div class = "container 75%">
 						<div class="row 200%">
@@ -77,10 +173,28 @@
 								<p>Below is an interactive map of that consolidates more than 40,000 tweets about Donald Trump from across the U.S., as well as the most tweeted about topic for each state.</p>
 							</div>
 						</div>
-
-
 					</div>
-					<div class = "container 75%" id="timeline">
+					
+				</section>
+
+
+			<!-- MAP -->
+				<section id="two" class="wrapper style2 special">
+
+					<div class="container">
+						<header class="major">
+							<h2>National Data</h2>
+							<p>The map above let's us see what each state is thinking about, but here is a more national look into what the data is telling us. </p>
+						</header>
+						<div class="row 75%">
+							<div class="6u 12u$(xsmall)">
+								
+								<div class="image fit captioned">
+								<p>KEY: The map automatically shades each state with respected to the other states to demonstrate polarity withinthe data. It ranges from light gray to dark red. The Darker it is, the higher the number of tweets in regards about the topic.</p>
+								<!-- LEFT COLUMN CONTENT:	<img src="images/Gender.png" alt="" />
+									<h3>72% of the people who like Trump are men.</h3>
+									<p> Data shows that men tend to support Donald Trump more than women on a national level. This could be due to many reasons. For one, Donald Trump does not support has been quoted disresoecting women in several occasions. Politica</p>-->
+									<div class = "container 50%" id="timeline">
 							<div id="graphic-container">
 											<div id="chart">
 												<div id="map">
@@ -649,56 +763,13 @@
 						<p></p>
 						
 
-					</div>
-					<!--MAP-->
-				</section>
-
-					<div>
-						<p>.</p>
-						<p> </p>
-						<p> </p>
-						<p> </p>
-						<p> </p>
-						<p> </p>
-						<p> </p>
-
-
-					</div>
-
-					<div>
-						<p></p>
-						<p></p>
-						<p></p>
-						<p></p>
-						<p></p>
-						<p></p>
-						<p></p>
-
-
-					</div>
-
-
-
-			<!-- Two -->
-				<section id="two" class="wrapper style2 special">
-
-					<div class="container">
-						<header class="major">
-							<h2>National Data</h2>
-							<p>The map above let's us see what each state is thinking about, but here is a more national look into what the data is telling us. </p>
-						</header>
-						<div class="row 150%">
-							<div class="6u 12u$(xsmall)">
-								<div class="image fit captioned">
-									<img src="images/Gender.png" alt="" />
-									<h3>72% of the people who like Trump are men.</h3>
-									<p> Data shows that men tend to support Donald Trump more than women on a national level. This could be due to many reasons. For one, Donald Trump does not support has been quoted disresoecting women in several occasions. Politica</p>
-								</div>
+					</div>	
+								</div> 
 							</div>
 							<div class="6u$ 12u$(xsmall)">
 								<div class="image fit captioned">
-									<img src="images/polarity.png" alt="" />
-									<h3>64% of the tweets were negative.</h3>
+									<button id="load_positive">LOAD POSITIVE DATA</button>
+									<p>64% of the tweets were negative.</p>
 								</div>
 							</div>
 						</div>
@@ -709,57 +780,6 @@
 					</div>
 				</section>
 
-			<!-- Three -->
-				<section id="three" class="wrapper style1">
-					<div class="container">
-						<header class="major special">
-							<h2>Interesting Facts from Our Data</h2>
-							<p>Based on more than 40,000 tweets, here are some of the things we've noticed.</p>
-						</header>
-						<div class="feature-grid">
-							<div class="feature">
-								<div class="image rounded"><img src="images/18-25.png" alt="" /></div>
-								<div class="content">
-									<header>
-										<h4>Age of people who tweeted about Trump the most.</h4>
-										<p>Nearly 43% of the tweets came from this age group.</p>
-									</header>
-									<p>Some of the tweets were positive, but most of them were negative. Roughly 73% of the tweets from people this age criticized Trump.</p>
-								</div>
-							</div>
-							<div class="feature">
-								<div class="image rounded"><img src="images/hilary.png" alt="" /></div>
-								<div class="content">
-									<header>
-										<h4>Hillary vs Trump</h4>
-										<p>Clinton was the democrat most mentioned when people tweeted about Trump.</p>
-									</header>
-									<p>Perhaps it's because people find Hillary fascinating, or becaue Trump has been quoted critizing her, but people mentioned her the most in the tweets we collected.</p>
-								</div>
-							</div>
-							<div class="feature">
-								<div class="image rounded"><img src="images/bush.png" alt="" /></div>
-								<div class="content">
-									<header>
-										<h4>Jeb Bush Better than Trump?</h4>
-										<p>Bush was the Republican most talked about and compared to Trump.</p>
-									</header>
-									<p>When people tweeted about Trump, they often talked about how he was not as good of a Republican as Bush. Nearly 40% of the tweets that mentioned Bush referenced Bush superiority, and the rest compared their views on topics like taxes and immigration.</p>
-								</div>
-							</div>
-							<div class="feature">
-								<div class="image rounded"><img src="images/52.png" alt="" /></div>
-								<div class="content">
-									<header>
-										<h4>Immigration and Women's Rights</h4>
-										<p>Tweets that contained political topics were mostly about these two.</p>
-									</header>
-									<p>Donald Trump gets the most amount of press time and is often featured in several news medias for his radical views on several political topics. Of all the tweets that contained a political topic, most contained the words immigration and women's rights (or things pertaining to them).  </p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
 
 			<!-- Four -->
 				<section id="four" class="wrapper style3 special">
@@ -773,6 +793,8 @@
 						</ul>
 					</div>
 				</section>
+
+
 
 		<!-- Footer -->
 			<footer id="footer">
