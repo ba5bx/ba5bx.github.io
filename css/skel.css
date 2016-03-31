@@ -34,19 +34,13 @@
 				/* min-width: (containers) */
 				min-width: 1200px;
 			}
-			.container.\38 5\25 {
-
-				/* width: (containers * 0.75) */
-				width: 900px;
-
-
-			}
 
 		/* 75% */
 			.container.\37 5\25 {
 
 				/* width: (containers * 0.75) */
-				width: 1000px;
+				width: 900px;
+
 			}
 
 		/* 50% */
@@ -253,5 +247,3 @@
 		.\-3u { margin-left: 25% }
 		.\-2u { margin-left: 16.6666666667% }
 		.\-1u { margin-left: 8.3333333333% }
-
-	
